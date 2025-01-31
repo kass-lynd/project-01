@@ -1,0 +1,73 @@
+/* CSS Notes */
+
+
+/*
+
+✧ . = class
+ex. ↓
+.selector {
+color: #fff;
+display: block;
+}
+
+✧ class can be applied/changed multiple times
+
+
+✧ # = id
+
+*/
+
+html {
+    font-family: "Futura", sans-serif;
+    font-size: 1.25em;
+    background-color: lavender;
+    padding: 1.25em;
+}
+/*
+section {
+    border: 1px solid rgb(119, 134, 255);
+    width: 40vw;
+    padding: 10px;
+    margin: 10px;
+}
+*/
+.container {
+    border-color: blueviolet;
+    width: 40vw;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid blueviolet;
+    transition: width 0.5s;
+}
+
+.container:hover {
+    width: 50vw;
+}
+
+.link {
+    text-decoration: none;
+    color: pink;
+    transition: all 0.5s;
+}
+
+.link:hover {
+    text-decoration: undelrine;
+    color: hotpink;
+    background-color: pink;
+
+
+}
+
+/*
+.icon box {
+padding: 5px;
+}
+
+Items in this box would be named accordingly;
+
+.icon-box__image {
+wdith: 40px;
+height: 40px;
+}
+*/
+
